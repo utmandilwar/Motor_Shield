@@ -4,11 +4,10 @@ import { Link } from 'react-router-dom'
 
 const PolicyMenu = () => {
   return (
-    <div className="card-menu">
-      <Link className="card">Purchase Policy - Get Quotes</Link>
-      <Link className="card">Renew Insurance Policy</Link>
-      <Link className="card">Track/View Policy</Link>
-      <Link className="card">Make Payment for Policy</Link>
+    <div className="policy-card-menu">
+      <Link to='/add-vehicle' className="card">Purchase Policy - Get Quotes</Link>
+      <Link to='/renew-policy' className="card">Renew Insurance Policy</Link>
+      <Link to='/track-policy' className="card">Track/Pay for Policy</Link>
     </div>
   )
 }
